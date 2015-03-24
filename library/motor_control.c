@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <util/delay.h>
 #include "Motors.h"
+
+private void populate_motor_struct(void);
+extern void motor_init(void);
+extern void power_motor(int id, int duty_cycle);
+extern int get_motor_duty_cycle(int id);
+extern void emergency_stop(void);
 
 int number_of_motors = 3;
 
