@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "METR4810", "METR4810\METR4810.cproj", "{BB78F605-B527-4E1F-8454-9DCC9A063C5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB78F605-B527-4E1F-8454-9DCC9A063C5B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{BB78F605-B527-4E1F-8454-9DCC9A063C5B}.Debug|AVR.Build.0 = Debug|AVR
+		{BB78F605-B527-4E1F-8454-9DCC9A063C5B}.Release|AVR.ActiveCfg = Release|AVR
+		{BB78F605-B527-4E1F-8454-9DCC9A063C5B}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
