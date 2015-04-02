@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<avr/interrupt.h>
-#include "library/Motors.h"
+#include "library/motor_control.h"
 #include <util/delay.h>
 #include <avr/io.h>
 

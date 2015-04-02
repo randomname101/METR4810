@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include "Motors.h"
+#include "motor_control.h"
 
 private void populate_motor_struct(void);
 extern void motor_init(void);

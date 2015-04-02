@@ -1,11 +1,17 @@
+#include <serial_control.h>
 #include <sensor_control.h>
+
+//#include <String.h>
 #include <motor_control.h>
+
 
 int o_pins[] = {21, 22, 23}; //A7, A8, A9
 int i_pins[] = {14, 15, 16, 17}; //A0, A1, A2 = Accelerometer A3 = IR
 int suitable_reading = 0;
 int i_readings[3];
 int i;
+
+String temp_s = "safsdags";
 
 motor_control mc(o_pins);
 sensor_control sc(i_pins);
